@@ -53,6 +53,8 @@ This is a comprehensive, production-ready system for generating **$110K-$300K mo
 ### 📋 Implementation Checklist
 
 **Week 1: Immediate**
+- [ ] Deploy static frontend to Vercel
+- [ ] Configure custom domains (4 brands)
 - [ ] Set up Go High Level CRM
 - [ ] Configure Zapier automation
 - [ ] Install Facebook Pixel
@@ -156,6 +158,37 @@ This is a comprehensive, production-ready system for generating **$110K-$300K mo
 ✅ **Operations Manager** - End-to-end workflow, automation setup
 ✅ **Sales Team** - Consultation scripts, objection handling
 ✅ **Case Managers** - Onboarding process, client communications
+
+### 🚀 Deployment Instructions
+
+**Prerequisites:**
+- GitHub/GitLab repository connected
+- Vercel account created
+
+**Deploy to Vercel:**
+```bash
+# Install Vercel CLI (if needed)
+npm i -g vercel
+
+# Deploy to production
+vercel --prod
+
+# Or connect via Vercel dashboard:
+# 1. Import Git repository
+# 2. Configure custom domains (4 brands)
+# 3. Deploy automatically on push
+```
+
+**Custom Domains to Configure:**
+- innovativeautomations.dev
+- innovativeglobaltalent.com
+- aventusvisaagents.com
+- pentospartners.com
+
+**Configuration:**
+- `vercel.json` handles SPA routing (all routes → index.html)
+- No build step required (static files)
+- Environment variables: Set in Vercel dashboard
 
 ### 📞 Contact
 
